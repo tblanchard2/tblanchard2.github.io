@@ -1,10 +1,20 @@
+body{
+    background: linear-gradient(to bottom, rgb(211, 225, 252), rgb(248, 226, 226));
+}
+
+#page{
+    background: linear-gradient(to bottom, aliceBlue, rgb(255, 240, 240));
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 h2{
     text-align: center;
 }
 
 .paragraph{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-indent: 40px;
     line-height: 1.5;
 }
@@ -22,8 +32,8 @@ h2{
 }
 
 .outcome{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #video_link{
@@ -40,12 +50,12 @@ h2{
 
 .left_download{
     float: left;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 .right_download{
     float: right;
-    margin-right: 25%;
+    margin-right: 5%;
 }
 
 #enhancement_1{
@@ -58,4 +68,9 @@ h2{
 
 #enhancement_3{
     margin-bottom: 5%;
+}
+
+.preview-title{
+    margin-top: 2.5%;
+    margin-bottom: -2.5%;
 }
